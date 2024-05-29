@@ -1,18 +1,16 @@
-# Nume proiect
+# Project Management Application
 
-Acest repository este un _template_ care poate servi ca punct de plecare pentru proiectul vostru de POO. Folosiți butonul de „Use this template” din dreapta sus pentru a vă crea propriul repo pe baza lui.
 
-## Descriere
+## Description
 
-Notați aici o scurtă descriere a temei alese de voi.
+This is the third part of the Project Management Application which relies on OOP paradigm.
 
-## Funcționalități
+## Functionalities
 
-Detaliația aici funcționalitățile pe care le îndeplinește aplicația voastră:
-- A
-- B
-- C
+The code has the following functionalities:
+- Template Method pattern (calculate_taks_cost), Observer pattern (for potential modifications of tasks), Singleton pattern (the menu)
+- Usage of smart pointers (weak_ptr for observer pattern and shared_ptr for other objects) for dynamic and smart memory allocation
+- ObjectManager template which helps use manage various objects of type Resource
 
-## Referințe
 
-Notați aici ce alte resurse ați folosit / găsit utile pe parcursul dezvoltării proiectului.
+
